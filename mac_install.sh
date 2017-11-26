@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo Install Homebrew, Postgres, wget and cask
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew tap homebrew/science
 brew install wget
 brew install git
@@ -25,7 +25,7 @@ brew install brew-cask-completion
 
 # Core Functionality
 echo Install Core Apps
-brew cask install --appdir="/Applications" little-snitch
+brew cask install --appdir="~/Applications" little-snitch
 brew cask install --appdir="~/Applications" sequel-pro
 brew cask install --appdir="~/Applications" java
 brew cask install --appdir="~/Applications" docker
