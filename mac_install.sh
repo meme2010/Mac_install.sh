@@ -13,6 +13,7 @@ brew install mysql
 brew install composer
 brew install tree
 brew install sourcekitten
+brew install swiftlint
 
 brew tap phinze/cask
 brew install cask
@@ -39,6 +40,7 @@ brew cask install --appdir="/Applications" phpstorm
 brew cask install --appdir="/Applications" atom
 brew cask install --appdir="/Applications" github
 brew cask install --appdir="/Applications" appcode
+brew cask install --appdir="/Applications" swift
 
 # Google Slavery
 echo Install Google Apps | Chrome not included cause of 1Password Plugin
