@@ -12,6 +12,7 @@ brew install thefuck
 brew install mysql
 brew install composer
 brew install tree
+brew search sourcekittenbrew
 
 brew tap phinze/cask
 brew install cask
