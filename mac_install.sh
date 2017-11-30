@@ -14,6 +14,10 @@ brew install composer
 brew install tree
 brew install sourcekitten
 brew install swiftlint
+brew install swiftformat
+brew install libswiften
+brew install libswiftnav
+brew install swiftgen
 
 brew tap phinze/cask
 brew install cask
