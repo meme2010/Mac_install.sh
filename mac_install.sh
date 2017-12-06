@@ -18,6 +18,7 @@ brew install swiftformat
 brew install libswiften
 brew install libswiftnav
 brew install swiftgen
+brew install swift
 brew install cocoapods
 
 brew tap phinze/cask
