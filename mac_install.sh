@@ -18,6 +18,7 @@ brew install swiftformat
 brew install libswiften
 brew install libswiftnav
 brew install swiftgen
+brew install cocoapods
 
 brew tap phinze/cask
 brew install cask
@@ -45,6 +46,7 @@ brew cask install --appdir="/Applications" atom
 brew cask install --appdir="/Applications" github
 brew cask install --appdir="/Applications" appcode
 brew cask install --appdir="/Applications" swift
+brew cask install --appdir="/Applications" cocoapods-app
 
 # Google Slavery
 echo Install Google Apps | Chrome not included cause of 1Password Plugin
