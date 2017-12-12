@@ -39,6 +39,7 @@ brew cask install --appdir="/Applications" little-snitch
 brew cask install --appdir="/Applications" sequel-pro
 brew cask install --appdir="/Applications" java
 brew cask install --appdir="/Applications" docker
+brew cask install --appdir="/Applications" java8
 
 # Development
 echo Install Dev Apps
@@ -48,6 +49,7 @@ brew cask install --appdir="/Applications" github
 brew cask install --appdir="/Applications" appcode
 brew cask install --appdir="/Applications" swift
 brew cask install --appdir="/Applications" cocoapods-app
+brew cask install --appdir="/Applications" android-studio
 
 # Google Slavery
 echo Install Google Apps | Chrome not included cause of 1Password Plugin
