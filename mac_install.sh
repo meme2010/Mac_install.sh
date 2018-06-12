@@ -35,27 +35,29 @@ brew install brew-cask-completion
 # Core Functionality
 echo Install Core Apps
 
-brew cask install --appdir="/Applications" little-snitch
-brew cask install --appdir="/Applications" sequel-pro
-brew cask install --appdir="/Applications" java
-brew cask install --appdir="/Applications" docker
-brew cask install --appdir="/Applications" java8
+brew cask install little-snitch
+brew cask install sequel-pro
+brew cask install java
+brew cask install docker
+brew cask install java8
 
 # Development
 echo Install Dev Apps
-brew cask install --appdir="/Applications" phpstorm
-brew cask install --appdir="/Applications" atom
-brew cask install --appdir="/Applications" github
-brew cask install --appdir="/Applications" appcode
-brew cask install --appdir="/Applications" swift
-brew cask install --appdir="/Applications" cocoapods-app
-brew cask install --appdir="/Applications" android-studio
+brew cask install phpstorm
+brew cask install atom
+brew cask install github
+brew cask install appcode
+brew cask install swift
+brew cask install cocoapods-app
+brew cask install android-studio
+brew cask install virtualbox
+brew cask install firefox
 
 # Google Slavery
 echo Install Google Apps | Chrome not included cause of 1Password Plugin
-brew cask install --appdir="/Applications" chrome-devtools
-brew cask install --appdir="/Applications" google-web-designer
-brew cask install --appdir="/Applications" google-chrome
+brew cask install chrome-devtools
+brew cask install google-web-designer
+brew cask install google-chrome
 
 # cleanup
 brew cleanup --force
