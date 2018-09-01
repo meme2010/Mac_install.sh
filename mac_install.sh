@@ -7,7 +7,6 @@ brew install wget
 brew install git
 brew install node
 brew install ruby
-brew install python
 brew install thefuck
 brew install mysql
 brew install composer
@@ -20,6 +19,27 @@ brew install libswiftnav
 brew install swiftgen
 brew install swift
 brew install cocoapods
+
+# Python
+brew install python
+# Python helpful modules
+pip install virtualenv
+pip install virtualenvwrapper
+pip install numpy
+brew install gfortran
+pip install scipy
+brew install freetype
+pip install matplotlib
+pip install ipython
+#QT for Python
+brew install pyqt
+# After installing pyqt, Homebrew will prompt you to add the following to your .bash_profile:
+# export PYTHONPATH=/usr/local/lib/python:$PYTHONPATH
+
+# dependences for PyQT
+brew install zmq
+pip install pyzmq
+pip install pygments
 
 brew tap phinze/cask
 brew install cask
