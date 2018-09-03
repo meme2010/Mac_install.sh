@@ -41,6 +41,9 @@ brew install zmq
 pip install pyzmq
 pip install pygments
 
+# Jupyter console
+pip install jupyter-console
+
 brew tap phinze/cask
 brew install cask
 
